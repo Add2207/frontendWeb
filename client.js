@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:3001";
+const BACKEND_URL = "backendweb-production-9e35.up.railway.app";
 
 // Get access_token from URL (after login)
 const accessToken = new URLSearchParams(window.location.search).get("access_token");
